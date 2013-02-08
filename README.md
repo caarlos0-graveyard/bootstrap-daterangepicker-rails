@@ -1,6 +1,8 @@
 # Bootstrap::Daterangepicker::Rails
 
-TODO: Write a gem description
+A simple gem to [date range picker for twitter bootstrap](https://github.com/dangrossman/bootstrap-daterangepicker). 
+It's provide a dropdown menu from which a user can select a range of dates
+
 
 ## Installation
 
@@ -18,7 +20,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Import the JS
+
+    //= require daterangepicker
+
+And the CSS
+
+	*= require daterangepicker
+
+Bind 
+	$('#element').daterangepicker(options, callback);
+
+Exemple and Demo
+
+[Demo](http://www.dangrossman.info/2012/08/20/a-date-range-picker-for-twitter-bootstrap/)
+
+
 
 ## Contributing
 
