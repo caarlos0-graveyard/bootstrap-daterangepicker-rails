@@ -28,8 +28,9 @@ And the CSS
 
 	*= require daterangepicker
 
-Bind 
-	$('#element').daterangepicker(options, callback);
+Bind
+
+    $('#element').daterangepicker(options, callback);
 
 Exemple and Demo
 
