@@ -10,4 +10,6 @@ Gem::Specification.new do |gem|
   gem.description   = %q{A simple gem to date range picker for twitter bootstrap}
   gem.summary       = %q{Provide a dropdown menu from which a user can select a range of dates}
   gem.homepage      = "https://github.com/Wealcash/bootstrap-daterangepicker-rails"
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["README.md"]
+  gem.add_dependency  'datejs-rails'
 end
