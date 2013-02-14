@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Bootstrap::Daterangepicker::Rails::VERSION
   gem.authors       = ["Lucas Merencia"]
   gem.email         = ["lucas.merencia@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{A simple gem to date range picker for twitter bootstrap}
+  gem.summary       = %q{Provide a dropdown menu from which a user can select a range of dates}
+  gem.homepage      = "https://github.com/Wealcash/bootstrap-daterangepicker-rails"
 
   gem.files = Dir["{lib,vendor}/**/*"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
