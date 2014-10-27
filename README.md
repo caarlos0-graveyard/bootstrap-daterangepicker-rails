@@ -32,7 +32,7 @@ Bind
 
     $('#element').daterangepicker(options, callback);
 
-Exemple and Demo
+Example and Demo
 
 [Demo](http://www.dangrossman.info/2012/08/20/a-date-range-picker-for-twitter-bootstrap/)
 
