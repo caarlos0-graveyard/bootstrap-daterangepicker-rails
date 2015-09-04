@@ -8,6 +8,7 @@ It's provide a dropdown menu from which a user can select a range of dates
 
 Add this line to your application's Gemfile:
 
+    gem 'datejs-rails'
     gem 'bootstrap-daterangepicker-rails'
 
 And then execute:
@@ -22,6 +23,7 @@ Or install it yourself as:
 
 Import the JS
 
+    //= require date
     //= require daterangepicker
 
 And the CSS
